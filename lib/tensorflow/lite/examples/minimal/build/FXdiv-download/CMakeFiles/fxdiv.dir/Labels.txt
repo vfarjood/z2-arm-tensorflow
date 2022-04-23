@@ -1,0 +1,14 @@
+# Target labels
+ fxdiv
+# Source files and their labels
+/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/FXdiv-download/CMakeFiles/fxdiv
+/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/FXdiv-download/CMakeFiles/fxdiv.rule
+/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/FXdiv-download/CMakeFiles/fxdiv-complete.rule
+/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/FXdiv-download/fxdiv-prefix/src/fxdiv-stamp/fxdiv-build.rule
+/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/FXdiv-download/fxdiv-prefix/src/fxdiv-stamp/fxdiv-configure.rule
+/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/FXdiv-download/fxdiv-prefix/src/fxdiv-stamp/fxdiv-download.rule
+/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/FXdiv-download/fxdiv-prefix/src/fxdiv-stamp/fxdiv-install.rule
+/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/FXdiv-download/fxdiv-prefix/src/fxdiv-stamp/fxdiv-mkdir.rule
+/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/FXdiv-download/fxdiv-prefix/src/fxdiv-stamp/fxdiv-patch.rule
+/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/FXdiv-download/fxdiv-prefix/src/fxdiv-stamp/fxdiv-test.rule
+/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/FXdiv-download/fxdiv-prefix/src/fxdiv-stamp/fxdiv-update.rule

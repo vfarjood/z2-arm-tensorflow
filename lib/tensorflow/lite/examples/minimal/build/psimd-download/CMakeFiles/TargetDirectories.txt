@@ -1,0 +1,3 @@
+/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/psimd-download/CMakeFiles/psimd.dir
+/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/psimd-download/CMakeFiles/edit_cache.dir
+/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/psimd-download/CMakeFiles/rebuild_cache.dir

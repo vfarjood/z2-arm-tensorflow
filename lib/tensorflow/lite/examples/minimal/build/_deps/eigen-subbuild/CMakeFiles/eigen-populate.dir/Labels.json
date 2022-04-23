@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/_deps/eigen-subbuild/CMakeFiles/eigen-populate"
+		},
+		{
+			"file" : "/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/_deps/eigen-subbuild/CMakeFiles/eigen-populate.rule"
+		},
+		{
+			"file" : "/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/_deps/eigen-subbuild/CMakeFiles/eigen-populate-complete.rule"
+		},
+		{
+			"file" : "/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/src/eigen-populate-stamp/eigen-populate-build.rule"
+		},
+		{
+			"file" : "/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/src/eigen-populate-stamp/eigen-populate-configure.rule"
+		},
+		{
+			"file" : "/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/src/eigen-populate-stamp/eigen-populate-download.rule"
+		},
+		{
+			"file" : "/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/src/eigen-populate-stamp/eigen-populate-install.rule"
+		},
+		{
+			"file" : "/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/src/eigen-populate-stamp/eigen-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/src/eigen-populate-stamp/eigen-populate-patch.rule"
+		},
+		{
+			"file" : "/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/src/eigen-populate-stamp/eigen-populate-test.rule"
+		},
+		{
+			"file" : "/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/src/eigen-populate-stamp/eigen-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"eigen-populate"
+		],
+		"name" : "eigen-populate"
+	}
+}

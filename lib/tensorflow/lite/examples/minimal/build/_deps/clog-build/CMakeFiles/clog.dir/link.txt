@@ -1,0 +1,2 @@
+/usr/bin/ar qc libclog.a CMakeFiles/clog.dir/src/clog.c.o
+/usr/bin/ranlib libclog.a

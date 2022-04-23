@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/FP16-download/CMakeFiles/fp16"
+		},
+		{
+			"file" : "/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/FP16-download/CMakeFiles/fp16.rule"
+		},
+		{
+			"file" : "/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/FP16-download/CMakeFiles/fp16-complete.rule"
+		},
+		{
+			"file" : "/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/FP16-download/fp16-prefix/src/fp16-stamp/fp16-build.rule"
+		},
+		{
+			"file" : "/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/FP16-download/fp16-prefix/src/fp16-stamp/fp16-configure.rule"
+		},
+		{
+			"file" : "/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/FP16-download/fp16-prefix/src/fp16-stamp/fp16-download.rule"
+		},
+		{
+			"file" : "/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/FP16-download/fp16-prefix/src/fp16-stamp/fp16-install.rule"
+		},
+		{
+			"file" : "/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/FP16-download/fp16-prefix/src/fp16-stamp/fp16-mkdir.rule"
+		},
+		{
+			"file" : "/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/FP16-download/fp16-prefix/src/fp16-stamp/fp16-patch.rule"
+		},
+		{
+			"file" : "/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/FP16-download/fp16-prefix/src/fp16-stamp/fp16-test.rule"
+		},
+		{
+			"file" : "/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/FP16-download/fp16-prefix/src/fp16-stamp/fp16-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"fp16"
+		],
+		"name" : "fp16"
+	}
+}

@@ -1,0 +1,14 @@
+# Target labels
+ pthreadpool
+# Source files and their labels
+/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/pthreadpool-download/CMakeFiles/pthreadpool
+/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/pthreadpool-download/CMakeFiles/pthreadpool.rule
+/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/pthreadpool-download/CMakeFiles/pthreadpool-complete.rule
+/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/pthreadpool-download/pthreadpool-prefix/src/pthreadpool-stamp/pthreadpool-build.rule
+/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/pthreadpool-download/pthreadpool-prefix/src/pthreadpool-stamp/pthreadpool-configure.rule
+/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/pthreadpool-download/pthreadpool-prefix/src/pthreadpool-stamp/pthreadpool-download.rule
+/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/pthreadpool-download/pthreadpool-prefix/src/pthreadpool-stamp/pthreadpool-install.rule
+/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/pthreadpool-download/pthreadpool-prefix/src/pthreadpool-stamp/pthreadpool-mkdir.rule
+/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/pthreadpool-download/pthreadpool-prefix/src/pthreadpool-stamp/pthreadpool-patch.rule
+/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/pthreadpool-download/pthreadpool-prefix/src/pthreadpool-stamp/pthreadpool-test.rule
+/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/pthreadpool-download/pthreadpool-prefix/src/pthreadpool-stamp/pthreadpool-update.rule

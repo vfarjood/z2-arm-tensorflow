@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/FXdiv-download/CMakeFiles/fxdiv"
+		},
+		{
+			"file" : "/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/FXdiv-download/CMakeFiles/fxdiv.rule"
+		},
+		{
+			"file" : "/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/FXdiv-download/CMakeFiles/fxdiv-complete.rule"
+		},
+		{
+			"file" : "/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/FXdiv-download/fxdiv-prefix/src/fxdiv-stamp/fxdiv-build.rule"
+		},
+		{
+			"file" : "/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/FXdiv-download/fxdiv-prefix/src/fxdiv-stamp/fxdiv-configure.rule"
+		},
+		{
+			"file" : "/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/FXdiv-download/fxdiv-prefix/src/fxdiv-stamp/fxdiv-download.rule"
+		},
+		{
+			"file" : "/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/FXdiv-download/fxdiv-prefix/src/fxdiv-stamp/fxdiv-install.rule"
+		},
+		{
+			"file" : "/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/FXdiv-download/fxdiv-prefix/src/fxdiv-stamp/fxdiv-mkdir.rule"
+		},
+		{
+			"file" : "/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/FXdiv-download/fxdiv-prefix/src/fxdiv-stamp/fxdiv-patch.rule"
+		},
+		{
+			"file" : "/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/FXdiv-download/fxdiv-prefix/src/fxdiv-stamp/fxdiv-test.rule"
+		},
+		{
+			"file" : "/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/FXdiv-download/fxdiv-prefix/src/fxdiv-stamp/fxdiv-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"fxdiv"
+		],
+		"name" : "fxdiv"
+	}
+}

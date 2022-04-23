@@ -1,0 +1,14 @@
+# Target labels
+ psimd
+# Source files and their labels
+/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/psimd-download/CMakeFiles/psimd
+/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/psimd-download/CMakeFiles/psimd.rule
+/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/psimd-download/CMakeFiles/psimd-complete.rule
+/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/psimd-download/psimd-prefix/src/psimd-stamp/psimd-build.rule
+/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/psimd-download/psimd-prefix/src/psimd-stamp/psimd-configure.rule
+/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/psimd-download/psimd-prefix/src/psimd-stamp/psimd-download.rule
+/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/psimd-download/psimd-prefix/src/psimd-stamp/psimd-install.rule
+/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/psimd-download/psimd-prefix/src/psimd-stamp/psimd-mkdir.rule
+/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/psimd-download/psimd-prefix/src/psimd-stamp/psimd-patch.rule
+/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/psimd-download/psimd-prefix/src/psimd-stamp/psimd-test.rule
+/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/psimd-download/psimd-prefix/src/psimd-stamp/psimd-update.rule

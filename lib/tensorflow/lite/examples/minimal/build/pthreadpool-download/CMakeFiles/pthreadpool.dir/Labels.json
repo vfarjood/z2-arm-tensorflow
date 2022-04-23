@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/pthreadpool-download/CMakeFiles/pthreadpool"
+		},
+		{
+			"file" : "/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/pthreadpool-download/CMakeFiles/pthreadpool.rule"
+		},
+		{
+			"file" : "/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/pthreadpool-download/CMakeFiles/pthreadpool-complete.rule"
+		},
+		{
+			"file" : "/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/pthreadpool-download/pthreadpool-prefix/src/pthreadpool-stamp/pthreadpool-build.rule"
+		},
+		{
+			"file" : "/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/pthreadpool-download/pthreadpool-prefix/src/pthreadpool-stamp/pthreadpool-configure.rule"
+		},
+		{
+			"file" : "/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/pthreadpool-download/pthreadpool-prefix/src/pthreadpool-stamp/pthreadpool-download.rule"
+		},
+		{
+			"file" : "/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/pthreadpool-download/pthreadpool-prefix/src/pthreadpool-stamp/pthreadpool-install.rule"
+		},
+		{
+			"file" : "/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/pthreadpool-download/pthreadpool-prefix/src/pthreadpool-stamp/pthreadpool-mkdir.rule"
+		},
+		{
+			"file" : "/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/pthreadpool-download/pthreadpool-prefix/src/pthreadpool-stamp/pthreadpool-patch.rule"
+		},
+		{
+			"file" : "/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/pthreadpool-download/pthreadpool-prefix/src/pthreadpool-stamp/pthreadpool-test.rule"
+		},
+		{
+			"file" : "/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/pthreadpool-download/pthreadpool-prefix/src/pthreadpool-stamp/pthreadpool-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"pthreadpool"
+		],
+		"name" : "pthreadpool"
+	}
+}

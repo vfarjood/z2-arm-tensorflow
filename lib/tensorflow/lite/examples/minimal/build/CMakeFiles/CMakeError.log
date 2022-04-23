@@ -1,0 +1,207 @@
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_fbf9b/fast && /usr/bin/make  -f CMakeFiles/cmTC_fbf9b.dir/build.make CMakeFiles/cmTC_fbf9b.dir/build
+make[1]: Entering directory '/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fbf9b.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -fPIE -o CMakeFiles/cmTC_fbf9b.dir/src.c.o -c /home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_fbf9b
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fbf9b.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_fbf9b.dir/src.c.o -o cmTC_fbf9b 
+/usr/bin/ld: CMakeFiles/cmTC_fbf9b.dir/src.c.o: in function `main':
+src.c:(.text+0x2f): undefined reference to `pthread_create'
+/usr/bin/ld: src.c:(.text+0x3b): undefined reference to `pthread_detach'
+/usr/bin/ld: src.c:(.text+0x47): undefined reference to `pthread_cancel'
+/usr/bin/ld: src.c:(.text+0x58): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_fbf9b.dir/build.make:99: cmTC_fbf9b] Error 1
+make[1]: Leaving directory '/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_fbf9b/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b9034/fast && /usr/bin/make  -f CMakeFiles/cmTC_b9034.dir/build.make CMakeFiles/cmTC_b9034.dir/build
+make[1]: Entering directory '/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b9034.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -fPIE -o CMakeFiles/cmTC_b9034.dir/CheckFunctionExists.c.o -c /usr/local/share/cmake-3.23/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b9034
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b9034.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_b9034.dir/CheckFunctionExists.c.o -o cmTC_b9034  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_b9034.dir/build.make:99: cmTC_b9034] Error 1
+make[1]: Leaving directory '/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_b9034/fast] Error 2
+
+
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wshorten64to32 failed with the following output:
+Change Dir: /home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_82215/fast && /usr/bin/make  -f CMakeFiles/cmTC_82215.dir/build.make CMakeFiles/cmTC_82215.dir/build
+make[1]: Entering directory '/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_82215.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_Wshorten64to32  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Werror -fPIE   -Wshorten-64-to-32 -o CMakeFiles/cmTC_82215.dir/src.cxx.o -c /home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wshorten-64-to-32'
+make[1]: *** [CMakeFiles/cmTC_82215.dir/build.make:78: CMakeFiles/cmTC_82215.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_82215/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wenumconversion failed with the following output:
+Change Dir: /home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f721d/fast && /usr/bin/make  -f CMakeFiles/cmTC_f721d.dir/build.make CMakeFiles/cmTC_f721d.dir/build
+make[1]: Entering directory '/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f721d.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_Wenumconversion  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Werror -fPIE   -Wenum-conversion -o CMakeFiles/cmTC_f721d.dir/src.cxx.o -c /home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wenum-conversion'; did you mean '-Wno-conversion'?
+make[1]: *** [CMakeFiles/cmTC_f721d.dir/build.make:78: CMakeFiles/cmTC_f721d.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_f721d/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wcpp11extensions failed with the following output:
+Change Dir: /home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_6d912/fast && /usr/bin/make  -f CMakeFiles/cmTC_6d912.dir/build.make CMakeFiles/cmTC_6d912.dir/build
+make[1]: Entering directory '/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6d912.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_Wcpp11extensions  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Werror -fPIE   -Wc++11-extensions -o CMakeFiles/cmTC_6d912.dir/src.cxx.o -c /home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wc++11-extensions'; did you mean '-fms-extensions'?
+make[1]: *** [CMakeFiles/cmTC_6d912.dir/build.make:78: CMakeFiles/cmTC_6d912.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_6d912/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_wd981 failed with the following output:
+Change Dir: /home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f2568/fast && /usr/bin/make  -f CMakeFiles/cmTC_f2568.dir/build.make CMakeFiles/cmTC_f2568.dir/build
+make[1]: Entering directory '/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f2568.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_wd981  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Werror -fPIE   -wd981 -o CMakeFiles/cmTC_f2568.dir/src.cxx.o -c /home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-wd981'
+make[1]: *** [CMakeFiles/cmTC_f2568.dir/build.make:78: CMakeFiles/cmTC_f2568.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_f2568/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_wd2304 failed with the following output:
+Change Dir: /home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ea1c6/fast && /usr/bin/make  -f CMakeFiles/cmTC_ea1c6.dir/build.make CMakeFiles/cmTC_ea1c6.dir/build
+make[1]: Entering directory '/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ea1c6.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_wd2304  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Werror -fPIE   -wd2304 -o CMakeFiles/cmTC_ea1c6.dir/src.cxx.o -c /home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-wd2304'
+make[1]: *** [CMakeFiles/cmTC_ea1c6.dir/build.make:78: CMakeFiles/cmTC_ea1c6.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_ea1c6/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" failed.
+Compiler: CMAKE_Fortran_COMPILER-NOTFOUND 
+Build flags: 
+Id flags: -v 
+
+The output was:
+No such file or directory
+
+
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" failed.
+Compiler: CMAKE_Fortran_COMPILER-NOTFOUND 
+Build flags: 
+Id flags:  
+
+The output was:
+No such file or directory
+
+
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" failed.
+Compiler: CMAKE_Fortran_COMPILER-NOTFOUND 
+Build flags: 
+Id flags: -c 
+
+The output was:
+No such file or directory
+
+
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" failed.
+Compiler: CMAKE_Fortran_COMPILER-NOTFOUND 
+Build flags: 
+Id flags: -fpp 
+
+The output was:
+No such file or directory
+
+
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" failed.
+Compiler: CMAKE_Fortran_COMPILER-NOTFOUND 
+Build flags: 
+Id flags: -v 
+
+The output was:
+No such file or directory
+
+
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" failed.
+Compiler: CMAKE_Fortran_COMPILER-NOTFOUND 
+Build flags: 
+Id flags:  
+
+The output was:
+No such file or directory
+
+
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" failed.
+Compiler: CMAKE_Fortran_COMPILER-NOTFOUND 
+Build flags: 
+Id flags: -c 
+
+The output was:
+No such file or directory
+
+
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" failed.
+Compiler: CMAKE_Fortran_COMPILER-NOTFOUND 
+Build flags: 
+Id flags: -fpp 
+
+The output was:
+No such file or directory
+
+

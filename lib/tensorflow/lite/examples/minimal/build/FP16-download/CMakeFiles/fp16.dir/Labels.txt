@@ -1,0 +1,14 @@
+# Target labels
+ fp16
+# Source files and their labels
+/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/FP16-download/CMakeFiles/fp16
+/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/FP16-download/CMakeFiles/fp16.rule
+/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/FP16-download/CMakeFiles/fp16-complete.rule
+/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/FP16-download/fp16-prefix/src/fp16-stamp/fp16-build.rule
+/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/FP16-download/fp16-prefix/src/fp16-stamp/fp16-configure.rule
+/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/FP16-download/fp16-prefix/src/fp16-stamp/fp16-download.rule
+/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/FP16-download/fp16-prefix/src/fp16-stamp/fp16-install.rule
+/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/FP16-download/fp16-prefix/src/fp16-stamp/fp16-mkdir.rule
+/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/FP16-download/fp16-prefix/src/fp16-stamp/fp16-patch.rule
+/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/FP16-download/fp16-prefix/src/fp16-stamp/fp16-test.rule
+/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/FP16-download/fp16-prefix/src/fp16-stamp/fp16-update.rule

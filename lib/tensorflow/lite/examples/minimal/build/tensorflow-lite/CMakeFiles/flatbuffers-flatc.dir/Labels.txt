@@ -1,0 +1,13 @@
+# Target labels
+ flatbuffers-flatc
+# Source files and their labels
+/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/tensorflow-lite/CMakeFiles/flatbuffers-flatc
+/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/tensorflow-lite/CMakeFiles/flatbuffers-flatc.rule
+/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/tensorflow-lite/CMakeFiles/flatbuffers-flatc-complete.rule
+/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/flatbuffers-flatc/src/flatbuffers-flatc-stamp/flatbuffers-flatc-build.rule
+/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/flatbuffers-flatc/src/flatbuffers-flatc-stamp/flatbuffers-flatc-configure.rule
+/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/flatbuffers-flatc/src/flatbuffers-flatc-stamp/flatbuffers-flatc-download.rule
+/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/flatbuffers-flatc/src/flatbuffers-flatc-stamp/flatbuffers-flatc-install.rule
+/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/flatbuffers-flatc/src/flatbuffers-flatc-stamp/flatbuffers-flatc-mkdir.rule
+/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/flatbuffers-flatc/src/flatbuffers-flatc-stamp/flatbuffers-flatc-patch.rule
+/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/flatbuffers-flatc/src/flatbuffers-flatc-stamp/flatbuffers-flatc-update.rule

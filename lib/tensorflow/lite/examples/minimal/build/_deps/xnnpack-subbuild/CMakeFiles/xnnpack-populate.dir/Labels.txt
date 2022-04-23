@@ -1,0 +1,14 @@
+# Target labels
+ xnnpack-populate
+# Source files and their labels
+/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/_deps/xnnpack-subbuild/CMakeFiles/xnnpack-populate
+/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/_deps/xnnpack-subbuild/CMakeFiles/xnnpack-populate.rule
+/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/_deps/xnnpack-subbuild/CMakeFiles/xnnpack-populate-complete.rule
+/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/src/xnnpack-populate-stamp/xnnpack-populate-build.rule
+/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/src/xnnpack-populate-stamp/xnnpack-populate-configure.rule
+/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/src/xnnpack-populate-stamp/xnnpack-populate-download.rule
+/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/src/xnnpack-populate-stamp/xnnpack-populate-install.rule
+/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/src/xnnpack-populate-stamp/xnnpack-populate-mkdir.rule
+/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/src/xnnpack-populate-stamp/xnnpack-populate-patch.rule
+/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/src/xnnpack-populate-stamp/xnnpack-populate-test.rule
+/home/siena/dev/libraries/tensorflow_src/tensorflow/tensorflow/lite/examples/minimal/build/src/xnnpack-populate-stamp/xnnpack-populate-update.rule
